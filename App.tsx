@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container} onLayout={onLayoutRootView}>
-      <StatusBar barStyle="light-content" backgroundColor="#272727" />
+      <StatusBar barStyle="light-content" backgroundColor="#0D0D0D" />
       <Home />
     </SafeAreaView>
   );

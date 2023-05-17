@@ -97,7 +97,7 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
   },
   taskList: {
-    flex: 1,
     paddingHorizontal: 24,
+    paddingVertical: 16,
   },
 });

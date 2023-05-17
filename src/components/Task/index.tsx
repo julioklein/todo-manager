@@ -40,6 +40,7 @@ export const Task = ({ task, done, onToggle, onDelete }: TaskProps) => {
           onPress={onToggle}
           onPressIn={handleTaskPressIn}
           onPressOut={handleTaskPressOut}
+          hitSlop={20}
           style={[
             styles.checkbox,
             (taskActive && styles.checkboxActive),
@@ -59,6 +60,7 @@ export const Task = ({ task, done, onToggle, onDelete }: TaskProps) => {
           onPress={onDelete}
           onPressIn={handleTrashPressIn}
           onPressOut={handleTrashPressOut}
+          hitSlop={20}
           style={styles.deleteButton}>
           {trashActive ?
             <Image source={TrashActive} />
